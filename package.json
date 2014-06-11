@@ -1,0 +1,10 @@
+{
+    "name": "YOR PROJECT NAME",
+    "version": "0.0.1",
+    "author": "AUTHOR",
+    "dependencies": {
+        "libxmljs": "*",
+        "plist": "*",
+        "cordova-lib": "*"
+    }
+}
