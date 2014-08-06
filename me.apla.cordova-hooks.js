@@ -3,7 +3,7 @@ var plist = require('plist');
 var fs = require('fs');
 var path = require('path');
 var cordova_util = require('cordova-lib/src/cordova/util');
-var ConfigParser = require('cordova-lib/src/cordova/ConfigParser');
+var ConfigParser = require('cordova-lib/src/configparser/ConfigParser');
 cordova_util.config_parser = ConfigParser;
 
 
