@@ -1,10 +1,19 @@
 {
-    "name": "YOUR_PROJECT_NAME",
+    "name": "cordova-hooks",
     "version": "0.0.1",
-    "author": "AUTHOR",
+    "author": {
+      "name":"Vito Macchia",
+      "email":"vito.macchia@gmail.com"
+    },
+    "repository" :{ 
+      "type" : "git",
+      "url" : "https://github.com/lamuertepeluda/cordova-hooks.git"
+    },
+    "description":"Set of useful hook scripts for apache cordova. Forked from https://github.com/apla/cordova-hooks",
+    "keywords":["cordova", "hooks"],
     "dependencies": {
-        "libxmljs": "*",
-        "plist": "*",
-        "cordova-lib": "*"
+        "libxmljs": "^0.11.0",
+        "plist": "^1.0.1",
+        "cordova-lib": "^0.21.6"
     }
 }
